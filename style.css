@@ -1,0 +1,118 @@
+.information .row{
+    padding: 4%;
+    background-color: aliceblue;
+    width: 50%;
+    margin: 0px auto;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+.information .row .input {
+    margin-bottom: 20px;
+}
+.information{
+    padding: 50px;
+}
+.information .row div button{
+    width: 100%;
+}
+#card-area{
+    display: none;
+}
+.front-side{
+    position: relative;
+}
+.box{
+    border: 5px solid #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 33%;
+    left: 17%;
+}
+#logo-part{
+    font-size: 9px;
+    font-family: 'MonteCarlo', cursive;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: rotate(-50deg);
+}
+#front-text{
+    position: absolute;
+    top: 56%;
+    left: 11%;
+    color: #fff;
+    text-transform:capitalize;
+}
+#name{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+#profession{
+    font-size: 8px;
+}
+.back-side{
+    position: relative;
+}
+.middle{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: #fff;
+    text-align: center;
+}
+#company-name{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+#company-tagline{
+    font-size: 8px;
+}
+.foot{
+    font-size: 7px;
+    color: #fff;
+}
+.left{
+    position: absolute;
+    left: 8%;
+    top: 65%;
+}
+#email, #your-location, #contuct, #your-website{
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+.right{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+}
+.left i, .right i{
+    font-size: 8px;
+    padding: 1px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.left-up , .left-down, .right-up, .right-down{
+    display: flex;
+    align-items: center;
+}
+.left-up , .right-up{
+    margin-bottom: 5px;
+}
+@media only screen and (max-width: 700px){
+    .information{
+        padding: 50px 0px;
+    }
+    .information .row{
+        width: 70%;
+    }
+    .information .row div input, .information .row div button{
+        font-size: 10px;
+        padding: 3px;
+    }
+}
