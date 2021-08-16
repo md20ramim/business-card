@@ -15,7 +15,7 @@
 .information .row div button{
     width: 100%;
 }
-#card-area{
+#congrates{
     display: none;
 }
 .front-side{
@@ -58,19 +58,25 @@
 .back-side{
     position: relative;
 }
+.download-btn{
+    display: none;
+}
 .middle{
     position: absolute;
-    top: 35%;
-    left: 35%;
+    top: 40%;
+    left: 0;
+    right: 0;
     color: #fff;
     text-align: center;
 }
 #company-name{
     font-size: 12px;
     margin-bottom: 0px;
+    font-family: 'Lobster', cursive;
 }
 #company-tagline{
     font-size: 8px;
+    font-family: 'Racing Sans One', cursive;
 }
 .foot{
     font-size: 7px;
@@ -84,6 +90,9 @@
 #email, #your-location, #contuct, #your-website{
     margin-bottom: 0px;
     margin-left: 5px;
+}
+#your-location {
+    text-transform: capitalize;
 }
 .right{
     position: absolute;
