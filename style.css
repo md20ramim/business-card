@@ -79,17 +79,17 @@
     font-family: 'Racing Sans One', cursive;
 }
 .foot{
-    font-size: 5px;
+    font-size: 7px;
     color: #fff;
 }
 .left{
     position: absolute;
-    left: 7%;
-    top: 75%;
+    left: 8%;
+    top: 65%;
 }
 #email, #your-location, #contuct, #your-website{
     margin-bottom: 0px;
-    margin-left: 2px;
+    margin-left: 5px;
 }
 #your-location {
     text-transform: capitalize;
@@ -97,10 +97,10 @@
 .right{
     position: absolute;
     left: 50%;
-    top: 75%;
+    top: 65%;
 }
 .left i, .right i{
-    font-size: 5px;
+    font-size: 8px;
     padding: 1px;
     border: 1px solid transparent;
     border-radius: 50%;
