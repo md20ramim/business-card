@@ -49,11 +49,11 @@
     text-transform:capitalize;
 }
 #name{
-    font-size: 12px;
+    font-size: 10px;
     margin-bottom: 0px;
 }
 #profession{
-    font-size: 8px;
+    font-size: 6px;
 }
 .back-side{
     position: relative;
@@ -79,7 +79,7 @@
     font-family: 'Racing Sans One', cursive;
 }
 .foot{
-    font-size: 4px;
+    font-size: 5px;
     color: #fff;
 }
 .left{
